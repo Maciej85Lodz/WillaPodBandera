@@ -1,2 +1,2 @@
 # WillaPodBandera2
-Another proposition for Willa Pod Banderą
+Another suggestion for Willa Pod Banderą
