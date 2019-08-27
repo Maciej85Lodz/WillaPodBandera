@@ -122,9 +122,9 @@ nav{
 
 .hero{
     width: 100%;
-    height: 88vh;
-    background: linear-gradient(135deg,rgba(58, 1, 1, 0.8) 0%, rgba(242, 241, 245, 0.9) 100%),
-    url('../assets/images/Banner.jpg') center no-repeat;
+    height: auto;
+    background: 
+    url('../assets/images/pokoje_zakopane.JPG') center no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -146,7 +146,7 @@ nav{
     max-width: 50rem;
     color:#fafafa;
     /* text-transform: uppercase; */
-    transform: translateY(20%);
+    transform: translateY(20%);    
 }
 
 .main-message h3{
@@ -159,9 +159,9 @@ nav{
     margin: 1rem 0;
 }
 
-/* .main-message p{
-    text-transform: lowercase;
-} */
+.main-message p{
+    background-color: gray transparent;
+}
 
 .btn{
     background-color: green;
@@ -230,21 +230,22 @@ nav{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(135deg,rgba(58, 1, 1, 0.8) 0%, rgba(242, 241, 245, 0.9) 100%);
+    background-image: none;
     z-index: -1;
 }
 
 .breakfast{
-    background: url(../assets/images/Bufet.jpg) center no-repeat;
+    background: url(../assets/images/Breakfast.JPG) center no-repeat;
+    size: 0.2%;
 
 }
 
 .localization{
-    background: url(../assets/images/willaFront2.jpg) center no-repeat;
+    background: url(../assets/images/Zakopane.JPG) center no-repeat;
 }
 
 .rooms{
-    background: url(../assets/images/slide.jpg) center no-repeat;
+    background: url(../assets/images/pokój1.JPG) center no-repeat;
 }
 
 .activities-grid-item i{
@@ -269,7 +270,7 @@ nav{
 .testimonials{
     width: 100%;
     height: 80vh;
-    background: linear-gradient(135deg,rgba(58, 1, 1, 0.8) 0%, rgba(242, 241, 245, 0.9) 100%),
+    background: 
     url(../assets/images/termy-Chochołowskie-1024x683.jpg) center no-repeat fixed;
     background-size: cover;
     position: relative;
@@ -301,7 +302,7 @@ nav{
 }
 
 .testimonial-cutomer img{    
-    width: 30%;
+    width: 20%;
     top:20rem;
 }
 
@@ -329,12 +330,22 @@ footer{
     color: black;
 }
 
+/* Gallery */
+.gallery {
+    width: 80%;
+    margin: 50px auto;
+}
+
+
+.item {
+    width: 100%;
+}
 
 /* Media queries */
 
 @media screen and (min-width: 350px){
     .main-message{
-        transform: translateY(40%);
+        transform: translateY(10%);
     }
 }
 
