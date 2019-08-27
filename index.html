@@ -17,6 +17,7 @@
      <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
      <!--Our own stylesheet-->
      <link rel="stylesheet" href="assets/style.css">
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
      <script src="https://cdn.jsdelivr.net/npm/macy@2.5.0/dist/macy.min.js"></script>
     <title>Willa Pod Banderą | Zakopane | Noclegi | Pokoje</title>
 </head>
@@ -285,12 +286,12 @@
         </section>
         <hr>
         <section id="img-gallery">
-                <div class="title-heading">
-                        <h1>Galeria</h1>
-                        <p>
-                            Poznaj nas.
-                        </p>
-                    </div>
+            <div class="title-heading">
+                <h1>Galeria</h1>
+                <p>
+                    Poznaj nas.
+                </p>
+            </div>
             <div class="gallery">
                 <img class="img-item" src="assets/images/gallery/DSC03805.JPG" alt="">
                 <img class="img-item" src="assets/images/gallery/DSC03806.JPG" alt="">
@@ -307,6 +308,65 @@
                 <img class="img-item" src="assets/images/gallery/DSC03808.JPG" alt="">
                 <img class="img-item" src="assets/images/gallery/DSC03824.JPG" alt="">
                 <img class="img-item" src="assets/images/gallery/DSC03853.JPG" alt="">
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="title-heading">
+                    <h1><span>Pytania?</span> napisz</h1>
+                <p>
+                    Poznaj nas.
+                </p>
+            </div>
+            <div class="container">
+                
+                <div class="wrapper">
+                    <div class="company-info">
+                        <h3>Willa Pod Banderą</h3>
+                        <ul>
+                            <li><i class="fa fa-road"></i> Tatary 25A, 34-500 Zakopane</li>
+                            <li><i class="fa fa-phone"></i> (+48) 18 533 11 25</li>
+                            <li><i class="fa fa-mobile"></i> (+48) 501-268-779</li>
+                            <li><i class="fa fa-envelope"></i> willazakopane@wp.pl</li>
+                        </ul>
+                    </div>
+                    <div class="contact">
+                    <h3>Email Us</h3>
+                        <div class="alert">Your message has been sent</div>
+                        <form id="contactForm">
+                            <p>
+                            <label>Imię</label>
+                            <input type="text" name="name" id="name" required>
+                            </p>
+                            <p>
+                            <label>Nazwisko</label>
+                            <input type="text" name="surname" id="surname">
+                            </p>
+                            <p>
+                            <label>Data Przyjazdu</label>
+                            <input type="date" name="checkIn" id="checkIn">
+                            </p>
+                            <p>
+                            <label>Data Wyjazdu</label>
+                            <input type="date" name="checkOut" id="checkOut">
+                            </p>
+                            <p>
+                            <label>E-mail</label>
+                            <input type="email" name="email" id="email" required>
+                            </p>
+                            <p>
+                            <label>Numer Telefonu</label>
+                            <input type="text" name="phone" id="phone">
+                            </p>
+                            <p class="full">
+                            <label>Zapytanie</label>
+                            <textarea name="message" rows="5" id="message"></textarea>
+                            </p>
+                            <p class="full">
+                            <button type="submit">Wiślij</button>
+                            </p>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
