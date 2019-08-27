@@ -352,7 +352,7 @@ footer{
     }
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 768px){
     header{
         height: 8rem;        
     }
@@ -412,7 +412,7 @@ footer{
     }
 
     .hero{
-        height: 60vh;
+        height: 70vh;
     }
 
     .main-message{
@@ -430,6 +430,9 @@ footer{
         background: url(../assets/images/helpers/wave-large.png);
         background-size: cover;
     }
+    .hero{
+        height: 70vh;
+    }
 
     .testimonials::before{
         height: 22.7rem;
@@ -439,7 +442,7 @@ footer{
 }
 
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1000px){
     .hero{
         height: 85vh;
     }
