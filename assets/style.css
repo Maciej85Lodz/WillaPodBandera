@@ -305,7 +305,7 @@ nav{
     top:20rem;
 }
 
-/* Begin adventures */
+/* Reservation */
 
 .adventure-grid{
     display: grid;
@@ -316,6 +316,10 @@ nav{
 
 .adventure-grid-item p{
     color: rgba(0, 0, 0, .7);
+}
+
+.animals{
+    text-align: center;
 }
 
 footer{
