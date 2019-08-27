@@ -124,7 +124,7 @@ nav{
     width: 100%;
     height: 88vh;
     background: linear-gradient(135deg,rgba(58, 1, 1, 0.8) 0%, rgba(242, 241, 245, 0.9) 100%),
-    url("images/Banner.jpg") center no-repeat;
+    url('/assets/images/Banner.jpg') center no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -137,7 +137,7 @@ nav{
     bottom: -3px;
     width: 100%;
     height: 4.7rem;
-    background: url('images/helpers/wave-small.png') center no-repeat;
+    background: url('/assets/images/helpers/wave-small.png') center no-repeat;
     background-size: cover;
 }
 
@@ -145,7 +145,7 @@ nav{
     width: 100%;
     max-width: 50rem;
     color:#fafafa;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     transform: translateY(20%);
 }
 
@@ -159,9 +159,9 @@ nav{
     margin: 1rem 0;
 }
 
-.main-message p{
+/* .main-message p{
     text-transform: lowercase;
-}
+} */
 
 .btn{
     background-color: green;
@@ -235,16 +235,16 @@ nav{
 }
 
 .star-gazing{
-    background: url("/images/Bufet.jpg") center no-repeat;
+    background: url('/assets/images/Bufet.jpg') center no-repeat;
 
 }
 
 .hikking{
-    background: url("/images/willaFront2.jpg") center no-repeat;
+    background: url('/assets/images/willaFront2.jpg') center no-repeat;
 }
 
 .camping{
-    background: url("/images/slide.jpg") center no-repeat;
+    background: url('/assets/images/slide.jpg') center no-repeat;
 }
 
 .activities-grid-item i{
@@ -270,7 +270,7 @@ nav{
     width: 100%;
     height: 80vh;
     background: linear-gradient(135deg,rgba(58, 1, 1, 0.8) 0%, rgba(242, 241, 245, 0.9) 100%),
-    url("/images/termy-Chochołowskie-1024x683.jpg") center no-repeat fixed;
+    url('/assets/images/termy-Chochołowskie-1024x683.jpg') center no-repeat fixed;
     background-size: cover;
     position: relative;
 }
@@ -282,7 +282,7 @@ nav{
     left: 0;
     width: 100%;
     height: 5.7rem;
-    background: url("/images/helpers/wave-small-reversed.png") center no-repeat;
+    background: url('/assets/images/helpers/wave-small-reversed.png') center no-repeat;
     background-size: cover;
 }
 .testimonial{
@@ -337,13 +337,13 @@ footer{
 @media screen and (min-width: 470px){
     .hero::before{
         height: 9.4rem;
-        background: url("/images/helpers/wave-medium.png");
+        background: url('/assets/images/helpers/wave-medium.png');
         background-size: cover;
     }
 
     .testimonials::before{
         height: 9.4rem;
-        background: url("/images/helpers/wave-medium-reversed.png");
+        background: url('/assets/images/helpers/wave-medium-reversed.png');
         background-size: cover;
     }
 }
@@ -423,13 +423,13 @@ footer{
 @media screen and (min-width: 950px){
     .hero::before{
         height: 22.7rem;
-        background: url("/images/helpers/wave-large.png");
+        background: url('/assets/images/helpers/wave-large.png');
         background-size: cover;
     }
 
     .testimonials::before{
         height: 22.7rem;
-        background: url("/images/helpers/wave-large-reversed.png");
+        background: url('/assets/images/helpers/wave-large-reversed.png');
         background-size: cover;
     }
 }
