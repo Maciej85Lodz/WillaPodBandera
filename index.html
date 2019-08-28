@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- meta tags -->
-    <meta charset="UTF-8">
     <meta name="description" content="Noclegi Zakopane, Pokoje Zakopane.">
     <meta name="keywords" content="Noclegi,Zakopane,Willa,Pokoje.">
     <meta name="author" content="Willa Pod Banderą">
@@ -77,7 +76,7 @@
                         u nas poczujesz się jak w domu.
                     </p>
                     <div class="cta">
-                        <a href="#reserv" class="btn">Rezerwuj Teraz</a>
+                        <a href="#roomadmin" class="btn">Rezerwuj Teraz</a>
                     </div>
                 </div>
             </div>
@@ -237,8 +236,9 @@
                         </p>
                     </div>
                     <br>                    
-                </div>
+                </div>               
             </div>
+            
         </section>
 
         <section id="reserv">
@@ -246,24 +246,22 @@
                 <div class="title-heading">
                     <h1>Rezerwacja</h1>
                     <p>
-                        Wymarzony pobyt w Sercu tart!
+                        Wymarzony pobyt w Sercu Tart!
                     </p>
                 </div>
-                <div class="adventure-grid">
+                <div class="reserv-grid">
                     <!-- adventure grid #3 -->
-                    <div class="adventure-grid-item">
+                    <div class="pay-info">
                         <p>1. Po kontakcie telefonicznym proszę dokonać wpłaty zadatku w uzgodnionej wysokości na nasz rachunek bankowy:</p>
+                        <br>
+                        <p>Dla przelewów z zagranicy w <strong> PLN</strong></p>
                         <br>
                         <p>PeKaO SA <strong>68 1240 5165 1111 0010 7578 7706</strong></p>
                         <br>
-                        <p>Dla przelewów z zagranicy w <strong> EURO</strong></p>
+                        <p>Dla przelewów z zagranicy w <strong class="euro"> EURO</strong></p>
                         <br>
                         <p><strong>SWIFT: PKOPPLPW 47 1240 5165 1978 0010 4419 6551</strong></p>
                         <br>
-                        
-                    </div>
-                    <!-- adventure grid #4 -->
-                    <div class="adventure-grid-item">
                         <p>2. Przekaz bankowy powinien zawierać:</p>
                         <br>
                         <p><strong>– zadatek – </strong>dane personalne Zamawiającego lub Gościa.</p>
@@ -271,17 +269,25 @@
                 </div>
                 <br>
                 <div>
-                <h3 class="animals">Noclegi, doba pobytowa od godziny <strong> 16.00 do 10.00 </strong> dnia następnego.</h3>
-                <br>
-                <div class="animals">
-                <h3>Można przyjechać ze zwierzakiem – opłata za dobę 40 zł od zwierzaka. Do ceny na miejscu doliczana jest opłata miejscowa pobierana za pobyt na kwaterach na rzecz Gminy Zakopane w wysokości 3 zł za każdą dobę pobytu.</h3>
-                <br>
-                <h1>
-                    Rezerwacje na majówkę i wakacje wymagają <strong> ZADATKU </strong>i w przypadku rezygnacji nie podlegają zwrotowi bez względu na termin jej dokonania.
-                </h1>
-                </div>
-                    <a class="btn" href="https://www.booking.com/hotel/pl/willa-pod-bandera-zakopane.pl.html">Rezerwuj już Teraz</a>
-                    
+                    <h3 class="animals">Noclegi w Zakopanem, w naszej Willi Pod banderą, doba pobytowa od godziny <strong> 16.00 do 10.00 </strong> dnia następnego.</h3>
+                    <br>
+                    <div class="animals">
+                    <h3>Można przyjechać ze zwierzakiem – opłata za dobę 40 zł od zwierzaka. Do ceny na miejscu doliczana jest opłata miejscowa pobierana za pobyt na kwaterach na rzecz Gminy Zakopane w wysokości 3 zł za każdą dobę pobytu.</h3>
+                    <br>
+                    <h1>
+                        Rezerwacje na majówkę i wakacje wymagają <strong> ZADATKU </strong>i w przypadku rezygnacji nie podlegają zwrotowi bez względu na termin jej dokonania.
+                    </h1>
+                    </div>
+                        <a class="btn" href="https://www.booking.com/hotel/pl/willa-pod-bandera-zakopane.pl.html">Rezerwuj już Teraz</a>                   
+                        <br>
+                        <br>
+                        <hr>
+                        <br>
+                        <br>
+                        <div class="roomadmin" id="roomadmin">                
+                            <iframe id="ra-reservation-form-v2" style="width: 100%; height:100px; border: none; padding: 0;" src="https://roomadmin.pl/widget/reservation-v2/start?fh=10593f2b1434dc58d459b5eb6102eb5823eda43e&style=%7B%22color_accent%22%3A%22%23A1195B%22%2C%22color_bg%22%3A%22%23FFFFFF%22%7D"></iframe> 
+                            <script> try { (function () { var iframe = window.document.getElementById('ra-reservation-form-v2'); function raMessageReceiver(event) { if (iframe) { if (event.data.height) { iframe.style.height = (event.data.height + 10) + "px"; } if (event.data.event && event.data.event.name === "widget.scrollup.requested") { try { iframe.scrollIntoView({behavior: "smooth", block: "start"}); } catch(e) {} } } } window.addEventListener("message", raMessageReceiver, false); function setup() { try { iframe.contentWindow.postMessage({ location: window.location.toString(), setup: { autoHeight: true } }, "*"); } catch (e) { } } setInterval(setup, 1000); iframe.addEventListener("load", setup); })(); } catch (e) { console.error(e); } </script>
+                        </div>
             </div>
         </section>
         <hr>
@@ -349,14 +355,10 @@
                             <label>Data Wyjazdu</label>
                             <input type="date" name="checkOut" id="checkOut">
                             </p>
-                            <p>
+                            <p class="full">
                             <label>E-mail</label>
                             <input type="email" name="email" id="email" required>
-                            </p>
-                            <p>
-                            <label>Numer Telefonu</label>
-                            <input type="text" name="phone" id="phone">
-                            </p>
+                            </p>                            
                             <p class="full">
                             <label>Zapytanie</label>
                             <textarea name="message" rows="5" id="message"></textarea>

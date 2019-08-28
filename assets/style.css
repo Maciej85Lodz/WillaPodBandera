@@ -18,6 +18,7 @@ html{
 
 a{
     text-decoration: none;
+    font-size: 2rem;
 }
 
 ul{
@@ -169,7 +170,7 @@ nav{
     color: #fafafa;
     display: inline-block;
     margin-top: 2rem;
-    padding: 1rem 2.5rem;
+    padding: 2rem 3.5rem;
     transition: background-color 650ms;
 }
 
@@ -307,22 +308,43 @@ nav{
 }
 
 /* Reservation */
-
-.adventure-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
-    grid-gap: 2.5rem;
-    margin-bottom: 2rem;
+#reserv .title-heading p{
+    text-transform: none;
 }
 
-.adventure-grid-item p{
+.reserv-grid{
+    
+    width: 980px;
+    height: 438px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+    grid-gap: 1.5rem;
+    margin-bottom: 2rem;
     color: rgba(0, 0, 0, .7);
+    text-align: center;
+}
+
+.reserv-grid .pay-info p{
+    font-size: 3.5rem;
+}
+
+.reserv-grid  .euro{
+    color: red;
 }
 
 .animals{
     text-align: center;
+    font-size: 2.9rem;
+}
+.animals h3{
+    font-size: 3rem;
+}
+.animals h1{
+    font-size: 2rem;
 }
 
+
+/* FOOTER */
 footer{
     padding: 2.5rem 0 ;
     background-color: #d7d4ed;
@@ -415,6 +437,7 @@ footer{
   }
   
   .contact form button{
+    background:#d7d4ed;
     background:#d7d4ed;
     border:0;
     text-transform: uppercase;
