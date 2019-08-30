@@ -314,18 +314,21 @@ nav{
 
 .reserv-grid{
     
-    width: 780px;
+    width: 320px;
     height: 238px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
     grid-gap: 1.5rem;
     margin-bottom: 2rem;
     color: rgba(0, 0, 0, .7);
+    
 }
 
 .pay-info .euro{
     color: red;
 }
+
+
 
 /* FOOTER */
 footer{
