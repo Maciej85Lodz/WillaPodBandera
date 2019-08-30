@@ -144,7 +144,7 @@ nav{
 
 .main-message{
     width: 100%;
-    max-width: 50rem;
+    max-width: 55rem;
     color:#fafafa;
     /* text-transform: uppercase; */
     transform: translateY(20%);    
@@ -170,7 +170,7 @@ nav{
     color: #fafafa;
     display: inline-block;
     margin-top: 2rem;
-    padding: 2rem 3.5rem;
+    padding: 1rem 2rem;
     transition: background-color 650ms;
 }
 
@@ -314,35 +314,18 @@ nav{
 
 .reserv-grid{
     
-    width: 980px;
-    height: 438px;
+    width: 780px;
+    height: 238px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
     grid-gap: 1.5rem;
     margin-bottom: 2rem;
     color: rgba(0, 0, 0, .7);
-    text-align: center;
 }
 
-.reserv-grid .pay-info p{
-    font-size: 3.5rem;
-}
-
-.reserv-grid  .euro{
+.pay-info .euro{
     color: red;
 }
-
-.animals{
-    text-align: center;
-    font-size: 2.9rem;
-}
-.animals h3{
-    font-size: 3rem;
-}
-.animals h1{
-    font-size: 2rem;
-}
-
 
 /* FOOTER */
 footer{
@@ -475,6 +458,28 @@ footer{
       font-size: 24px;
       top: 70px;
     }
+
+    .reserv-grid .pay-info p{
+        font-size: 3.5rem;
+        
+    text-align: center;
+    }
+    
+    .reserv-grid  .euro{
+        color: red;
+    }
+    
+    .animals{
+        text-align: center;
+        font-size: 2.9rem;
+    }
+    .animals h3{
+        font-size: 3rem;
+    }
+    .animals h1{
+        font-size: 2rem;
+    }
+    
   }
 /* Media queries */
 
@@ -499,7 +504,7 @@ footer{
 }
 
 @media screen and (min-width: 768px){
-    header{
+    .header{
         height: 8rem;        
     }
 
@@ -592,4 +597,35 @@ footer{
     .hero{
         height: 85vh;
     }
+    .reserv-grid{
+    
+        width: 980px;
+        height: 438px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+        grid-gap: 1.5rem;
+        margin-bottom: 2rem;
+        color: rgba(0, 0, 0, .7);
+        text-align: center;
+    }
+
+    .reserv-grid .pay-info p{
+        font-size: 3.5rem;
+    }
+    
+    .reserv-grid  .euro{
+        color: red;
+    }
+    
+    .animals{
+        text-align: center;
+        font-size: 2.9rem;
+    }
+    .animals h3{
+        font-size: 3rem;
+    }
+    .animals h1{
+        font-size: 2rem;
+    }
+    
 }
