@@ -352,10 +352,10 @@ footer{
 /* CONTACT FORM */
 
 .contact{
-    background-color: #d7d4ed;
+background-color: #d7d4ed;
   color:#485e74;
   line-height:1.6;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Source Sans Pro',sans-serif;
   padding:1em;
 }
 
@@ -629,6 +629,5 @@ footer{
     }
     .animals h1{
         font-size: 2rem;
-    }
-    
+    }    
 }
