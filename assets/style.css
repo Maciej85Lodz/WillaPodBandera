@@ -204,7 +204,7 @@ nav{
 
 .title-heading p{
     text-transform: lowercase;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .activities-grid{
@@ -277,7 +277,7 @@ nav{
 }
 
  #offer .offer-grid-item p{
-    font-size: 2rem;
+    font-size: 2.5rem;
     position: 0;
 }
 /* recomendations */
