@@ -124,7 +124,7 @@ nav{
 .hero{
     width: 100%;
     height: auto;
-    background: 
+    background:
     url('../assets/images/pokoje_zakopane.JPG') center no-repeat;
     background-size: cover;
     position: relative;
@@ -147,7 +147,7 @@ nav{
     max-width: 55rem;
     color:#fafafa;
     /* text-transform: uppercase; */
-    transform: translateY(20%);    
+    transform: translateY(20%);
 }
 
 .main-message h3{
@@ -192,18 +192,19 @@ nav{
 }
 
 .title-heading h3{
-    top: 2rem;
-    font-size: 1.4rem;
+    top: 3.5rem;
+    font-size: 3.5rem;
 }
 
 .title-heading h1{
     font-family: 'Source Sans Pro',sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: .5rem 0 1 rem;
 }
 
 .title-heading p{
     text-transform: lowercase;
+    font-size: 2.5rem;
 }
 
 .activities-grid{
@@ -265,13 +266,26 @@ nav{
 .activities-grid p{
     color:#fafafa;
 }
+/*offer*/
+#offer .title-heading h1{
+    font-size: 3.5rem;
 
+}
+
+#offer .offer-grid-item h1{
+    font-size: 2.5rem;
+}
+
+ #offer .offer-grid-item p{
+    font-size: 2rem;
+    position: 0;
+}
 /* recomendations */
 
 .testimonials{
     width: 100%;
     height: 80vh;
-    background: 
+    background:
     url(../assets/images/termy-Chochołowskie-1024x683.jpg) center no-repeat fixed;
     background-size: cover;
     position: relative;
@@ -302,7 +316,7 @@ nav{
     position: relative;
 }
 
-.testimonial-cutomer img{    
+.testimonial-cutomer img{
     width: 20%;
     top:20rem;
 }
@@ -313,7 +327,7 @@ nav{
 }
 
 .reserv-grid{
-    
+
     width: 350px;
     height: 238px;
     display: grid;
@@ -321,14 +335,16 @@ nav{
     grid-gap: 1.5rem;
     margin-bottom: 2rem;
     color: rgba(0, 0, 0, .7);
-    
+
 }
 
 .pay-info .euro{
     color: red;
 }
 
-
+.pay-info p{
+    font-size: 2rem;
+}
 
 /* FOOTER */
 footer{
@@ -353,7 +369,7 @@ footer{
 
 .contact{
 background-color: #d7d4ed;
-  color:#485e74;
+  /*color:#485e74;*/
   line-height:1.6;
   font-family: 'Source Sans Pro',sans-serif;
   padding:1em;
@@ -373,69 +389,69 @@ background-color: #d7d4ed;
   .brand{
     text-align: center;
   }
-  
-  
-  
+
+
+
   /* .wrapper{
     box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
   } */
-  
+
   .wrapper > *{
     padding: 1em;
   }
-  
+
   .company-info{
     background:#d7d4ed;
   }
-  
+
   .company-info h3, .company-info ul{
     text-align: center;
     margin:0 0 1rem 0;
   }
-  
+
   .contact{
     background:#f9feff;
   }
-  
+
   /* FORM STYLES */
   .contact form{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap:20px;
   }
-  
+
   .contact form label{
     display:block;
   }
-  
+
   .contact form p{
     margin:0;
   }
-  
+
   .contact form .full{
     grid-column: 1 / 3;
   }
-  
+
   .contact form button, .contact form input, .contact form textarea{
     width:100%;
     padding:1em;
     border:1px solid #d7d4ed;
   }
-  
+
   .contact form button{
     background:#d7d4ed;
     background:#d7d4ed;
     border:0;
     text-transform: uppercase;
   }
-  
+
   .contact form button:hover,.contact form button:focus{
     background:#d7d4ed;
     color:#fff;
     outline:0;
     transition: background-color 2s ease-out;
   }
-  
+
   .alert{
     text-align: center;
     padding:10px;
@@ -444,18 +460,18 @@ background-color: #d7d4ed;
     margin-bottom:10px;
     display:none;
   }
-  
+
   /* LARGE SCREENS */
   @media(min-width:700px){
     .wrapper{
       display: grid;
       grid-template-columns: 1fr 2fr;
     }
-  
+
     .wrapper > *{
       padding:2em;
     }
-  
+
     .company-info h3, .company-info ul, .brand{
       text-align: left;
       font-size: 24px;
@@ -464,14 +480,14 @@ background-color: #d7d4ed;
 
     .reserv-grid .pay-info p{
         font-size: 3.5rem;
-        
+
     text-align: center;
     }
-    
+
     .reserv-grid  .euro{
         color: red;
     }
-    
+
     .animals{
         text-align: center;
         font-size: 2.9rem;
@@ -482,7 +498,7 @@ background-color: #d7d4ed;
     .animals h1{
         font-size: 2rem;
     }
-    
+
   }
 /* Media queries */
 
@@ -508,7 +524,7 @@ background-color: #d7d4ed;
 
 @media screen and (min-width: 768px){
     .header{
-        height: 8rem;        
+        height: 8rem;
     }
 
     .nav-brand{
@@ -601,7 +617,6 @@ background-color: #d7d4ed;
         height: 85vh;
     }
     .reserv-grid{
-    
         width: 980px;
         height: 438px;
         display: grid;
@@ -615,11 +630,11 @@ background-color: #d7d4ed;
     .reserv-grid .pay-info p{
         font-size: 3.5rem;
     }
-    
+
     .reserv-grid  .euro{
         color: red;
     }
-    
+
     .animals{
         text-align: center;
         font-size: 2.9rem;
@@ -629,5 +644,5 @@ background-color: #d7d4ed;
     }
     .animals h1{
         font-size: 2rem;
-    }    
+    }
 }
