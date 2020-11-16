@@ -198,6 +198,7 @@ nav{
 .title-heading h1{
     font-family: 'Source Sans Pro',sans-serif;
     font-size: 3rem;
+    text-transform: uppercase;
     margin: .5rem 0 1 rem;
 }
 
