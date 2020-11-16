@@ -364,7 +364,9 @@ footer{
 .item {
     width: 100%;
 }
-
+/* Google maps*/
+.googlemap{
+ position: relative; }
 /* CONTACT FORM */
 
 .contact{
