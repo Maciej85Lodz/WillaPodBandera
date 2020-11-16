@@ -203,7 +203,7 @@ nav{
 }
 
 .title-heading p{
-    text-transform: lowercase;
+    /*text-transform: lowercase;*/
     font-size: 3rem;
 }
 
