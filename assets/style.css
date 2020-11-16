@@ -328,8 +328,8 @@ nav{
 
 .reserv-grid{
 
-    width: 350px;
-    height: 238px;
+    /*width: 350px;
+    height: 238px;*/
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
     grid-gap: 1.5rem;
