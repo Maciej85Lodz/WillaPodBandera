@@ -366,7 +366,9 @@ footer{
 }
 /* Google maps*/
 .googlemap{
- position: relative; }
+ position: relative; 
+ left: 200px;
+}
 /* CONTACT FORM */
 
 .contact{
