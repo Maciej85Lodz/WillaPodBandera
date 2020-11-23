@@ -343,22 +343,22 @@
                     <div class="contact">
                     <h3>Email Us</h3>
                         <div class="alert">Your message has been sent</div>
-                        <form id="contactForm">
+                        <form id="contactForm" action="https://formspree.io/f/mbjparab" method="POST">
                             <p>
                             <label>Imię</label>
                             <input type="text" name="name" id="name" required>
                             </p>
                             <p>
                             <label>Nazwisko</label>
-                            <input type="text" name="surname" id="surname">
+                            <input type="text" name="surname" id="surname" required>
                             </p>
                             <p>
                             <label>Data Przyjazdu</label>
-                            <input type="date" name="checkIn" id="checkIn">
+                            <input type="date" name="checkIn" id="checkIn" required>
                             </p>
                             <p>
                             <label>Data Wyjazdu</label>
-                            <input type="date" name="checkOut" id="checkOut">
+                            <input type="date" name="checkOut" id="checkOut" required>
                             </p>
                             <p class="full">
                             <label>E-mail</label>
