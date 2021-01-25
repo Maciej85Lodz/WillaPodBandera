@@ -1,6 +1,5 @@
-//function expression to select elements
-/* Created by maciejwolejszo.pl
-All rights reserved by Willa Pod Banderą */
+
+/* Created by maciejwolejszo.pl All rights reserved.  */
 
 const selectElement = (s) => document.querySelector(s);
 
