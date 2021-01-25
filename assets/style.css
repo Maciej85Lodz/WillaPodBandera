@@ -370,6 +370,12 @@ footer{
     height: 785px;
     border: 0;
 }
+
+.weather{
+    display: block;
+  margin-left: 10rem;
+  margin-right: auto;
+}
 /* CONTACT FORM */
 
 .contact{
@@ -604,6 +610,9 @@ background-color: #d7d4ed;
     .title-heading h1{
         font-size: 2.5rem;
     }
+    .weather{
+        margin-left: 40rem;
+    }
 }
 
 @media screen and (min-width: 950px){
@@ -622,6 +631,8 @@ background-color: #d7d4ed;
         background-size: cover;
     }
 }
+
+
 
 
 @media screen and (min-width: 1000px){
@@ -656,6 +667,9 @@ background-color: #d7d4ed;
     }
     .animals h1{
         font-size: 2rem;
+    }
+    .weather{
+        margin-left: 85rem;;
     }
 }
 
