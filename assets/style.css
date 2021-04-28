@@ -476,9 +476,23 @@ background-color: #d7d4ed;
     border-radius: 4px;
     padding: 5px;
     width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    display: grid;
   }
   
-
+  .shieldPfr{
+    background: url(../assets/images/helpers/tarcza_Willapodbandera..jpg) center no-repeat;
+    size: 0.2%;
+ }
+ .goodPractice{
+     background: url(../assets/images/helpers/DobrePraktyki_WillaPodBanderą.png) center no-repeat;
+     size: 0.2%;
+ }
+ .pfr{
+    background: url(../assets/images/helpers/PFR_WillaPodBandera.jpg) center no-repeat;
+    size: 0.2%;
+ }
   /* LARGE SCREENS */
   @media(min-width:700px){
     .wrapper{
