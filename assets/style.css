@@ -687,36 +687,6 @@ background-color: #d7d4ed;
     }
 }
 
-
-/*blok info about e-booking.com*/
-
-#blok {
-    position:relative;
-    width:900px;
-    height:3.2em;
-    line-height:3.2em;
-    margin:0 auto;
-    border:3px solid #DDD;
-    font-size:2.5em;
-    background-color:red;
-    overflow:hidden;
-  }
-
-  #blok > p {
-    position:absolute;
-    margin:0;
-    font-size: 2.5rem;
-    font-weight: bold;
-    white-space:nowrap;
-    animation:przesun 30s linear infinite;
-    -webkit-animation:przesun 30s linear infinite; /* dla Google Chrome, Safari, Opera 15+ */
-  }
-
-  #blok > p:hover {
-    animation-play-state:paused;
-    -webkit-animation-play-state:paused;
-  }
-
   /* ------------ANIMACJA-PRZESUN------------ */
   @keyframes przesun
   {
@@ -732,7 +702,7 @@ background-color: #d7d4ed;
 
 /*Licence*/
 
-/*All right reserver maciejwolejszo.pl*/
+/*All right reserved Willa Pod Banderą / maciejwolejszo.pl*/
 /* CREATIVE COMMONS NIE JEST KANCELARIĄ PRAWNĄ I NIE ŚWIADCZY USŁUG PRAWNICZYCH. ROZPOWSZECHNIANIE WZORCA NINIEJSZEJ LICENCJI NIE PROWADZI DO POWSTANIA STOSUNKU ZAUFANIA W RODZAJU RELACJI POMIĘDZY KLIENTEM I JEGO DORADCĄ PRAWNYM. CREATIVE COMMONS DOSTARCZA JEDYNIE INFORMACJI O TEJ LICENCJI JAKO INSTRUMENTU, KTÓRY MOŻNA NA ZASADACH W NIEJ ZAWARTYCH WYKORZYSTAĆ DLA WŁASNYCH CELÓW. CREATIVE COMMONS NIE UDZIELA ŻADNYCH GWARANCJI I NIE PONOSI ODPOWIEDZIALNOŚCI Z TYTUŁU SZKÓD MOGĄCYCH POWSTAĆ W WYNIKU JEJ WYKORZYSTYWANIA.
 Licencja
 UTWÓR (ZDEFINIOWANY PONIŻEJ) PODLEGA NINIEJSZEJ LICENCJI PUBLICZNEJ CREATIVE COMMONS ("CCPL" LUB "LICENCJA"). UTWÓR PODLEGA OCHRONIE PRAWA AUTORSKIEGO LUB INNYCH STOSOWNYCH PRZEPISÓW PRAWA. KORZYSTANIE Z UTWORU W SPOSÓB INNY NIŻ DOZWOLONY NA PODSTAWIE NINIEJSZEJ LICENCJI LUB PRZEPISÓW PRAWA JEST ZABRONIONE.
