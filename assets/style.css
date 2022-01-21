@@ -130,7 +130,6 @@ nav{
     position: relative;
 }
 
-
 .hero::before{
     content: "";
     position: absolute;
@@ -266,7 +265,9 @@ nav{
 .activities-grid p{
     color:#fafafa;
 }
+
 /*offer*/
+
 #offer .title-heading h1{
     font-size: 3.5rem;
 
@@ -280,6 +281,7 @@ nav{
     font-size: 2rem;
     position: 0;
 }
+
 /* recomendations */
 
 .testimonials{
@@ -301,6 +303,7 @@ nav{
     background: url(../assets/images/helpers/wave-small-reversed.png) center no-repeat;
     background-size: cover;
 }
+
 .testimonial{
     width: 100%;
     color: #fafafa;
@@ -322,6 +325,7 @@ nav{
 }
 
 /* Reservation */
+
 #reserv .title-heading p{
     text-transform: none;
 }
@@ -347,6 +351,7 @@ nav{
 }
 
 /* FOOTER */
+
 footer{
     padding: 2.5rem 0 ;
     background-color: #d7d4ed;
@@ -360,11 +365,12 @@ footer{
     margin: 50px auto;
 }
 
-
 .item {
     width: 100%;
 }
+
 /* Google maps*/
+
 .googlemaps{
     width: 100%;
     height: 785px;
@@ -375,6 +381,7 @@ footer{
   margin-left: 10rem;
   margin-right: auto;
 }
+
 /* CONTACT FORM */
 
 .contact{
@@ -391,6 +398,7 @@ background-color: #d7d4ed;
     margin-right:auto;
     padding:1em;
   }
+
   .contact ul{
     list-style: none;
     padding:0;
@@ -399,8 +407,6 @@ background-color: #d7d4ed;
   .brand{
     text-align: center;
   }
-
-
 
   /* .wrapper{
     box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
@@ -424,6 +430,7 @@ background-color: #d7d4ed;
   }
 
   /* FORM STYLES */
+
   .contact form{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -485,16 +492,20 @@ background-color: #d7d4ed;
     background: url(../assets/images/helpers/tarcza_Willapodbandera..jpg) center no-repeat;
     size: 0.2%;
  }
+
  .goodPractice{
      background: url(../assets/images/helpers/DobrePraktyki_WillaPodBanderą.png) center no-repeat;
      size: 0.2%;
  }
+
  .pfr{
     background: url(../assets/images/helpers/PFR_WillaPodBandera.jpg) center no-repeat;
     size: 0.2%;
  }
-  /* LARGE SCREENS */
-  @media(min-width:700px){
+
+ /* LARGE SCREENS */
+
+ @media(min-width:700px){
     .wrapper{
       display: grid;
       grid-template-columns: 1fr 2fr;
@@ -532,7 +543,8 @@ background-color: #d7d4ed;
     }
 
   }
-/* Media queries */
+
+  /* Media queries */
 
 @media screen and (min-width: 350px){
     .main-message{
@@ -646,9 +658,6 @@ background-color: #d7d4ed;
     }
 }
 
-
-
-
 @media screen and (min-width: 1000px){
     .hero{
         height: 85vh;
@@ -688,6 +697,7 @@ background-color: #d7d4ed;
 }
 
   /* ------------ANIMACJA-PRZESUN------------ */
+
   @keyframes przesun
   {
     0% { transform:translateX(0); padding-left:110%; }
@@ -703,6 +713,7 @@ background-color: #d7d4ed;
 /*Licence*/
 
 /*All right reserved Willa Pod Banderą / maciejwolejszo.pl*/
+
 /* CREATIVE COMMONS NIE JEST KANCELARIĄ PRAWNĄ I NIE ŚWIADCZY USŁUG PRAWNICZYCH. ROZPOWSZECHNIANIE WZORCA NINIEJSZEJ LICENCJI NIE PROWADZI DO POWSTANIA STOSUNKU ZAUFANIA W RODZAJU RELACJI POMIĘDZY KLIENTEM I JEGO DORADCĄ PRAWNYM. CREATIVE COMMONS DOSTARCZA JEDYNIE INFORMACJI O TEJ LICENCJI JAKO INSTRUMENTU, KTÓRY MOŻNA NA ZASADACH W NIEJ ZAWARTYCH WYKORZYSTAĆ DLA WŁASNYCH CELÓW. CREATIVE COMMONS NIE UDZIELA ŻADNYCH GWARANCJI I NIE PONOSI ODPOWIEDZIALNOŚCI Z TYTUŁU SZKÓD MOGĄCYCH POWSTAĆ W WYNIKU JEJ WYKORZYSTYWANIA.
 Licencja
 UTWÓR (ZDEFINIOWANY PONIŻEJ) PODLEGA NINIEJSZEJ LICENCJI PUBLICZNEJ CREATIVE COMMONS ("CCPL" LUB "LICENCJA"). UTWÓR PODLEGA OCHRONIE PRAWA AUTORSKIEGO LUB INNYCH STOSOWNYCH PRZEPISÓW PRAWA. KORZYSTANIE Z UTWORU W SPOSÓB INNY NIŻ DOZWOLONY NA PODSTAWIE NINIEJSZEJ LICENCJI LUB PRZEPISÓW PRAWA JEST ZABRONIONE.
