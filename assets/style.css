@@ -535,14 +535,17 @@ background-color: #d7d4ed;
         text-align: center;
         font-size: 2.9rem;
     }
+    .animals p{
+        font-size: 2rem;
+    }
     .animals h3{
         font-size: 3rem;
     }
     .animals h1{
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .animals h4{
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         text-decoration: underline;
     }
 
