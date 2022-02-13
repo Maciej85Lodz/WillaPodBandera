@@ -541,6 +541,10 @@ background-color: #d7d4ed;
     .animals h1{
         font-size: 2rem;
     }
+    .animals h4{
+        font-size: 1.75rem;
+        text-decoration: underline;
+    }
 
   }
 
