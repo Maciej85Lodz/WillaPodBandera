@@ -237,16 +237,16 @@ nav{
 
 .breakfast{
     background: url(../assets/images/Breakfast.JPG) center no-repeat;
-    size: 0.2%;
+    /*size: 0.2%;*/
 
 }
 
 .localization{
-    background: url(../assets/images/Zakopane.JPG) center no-repeat;
+    background: url(../assets/images/pokoje_zakopane.JPG) center no-repeat;
 }
 
 .rooms{
-    background: url(../assets/images/pokój1.JPG) center no-repeat;
+    background: url(../assets/images/room_new.JPG) center no-repeat;
 }
 
 .activities-grid-item i{
